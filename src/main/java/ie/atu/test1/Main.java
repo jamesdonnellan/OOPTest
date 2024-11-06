@@ -44,11 +44,21 @@ public class Main
 
     // user selects an option
 
+    if(int userInput ==)
+        {
     // if user enters add product
         Scanner p1 = new Scanner(System.in);
         System.out.println("Enter New Product Name: ");
-        String name = p1.nextline();
-       Product name = set.productId("");
+        Product p = new Product();
+        p.setName(name);
+        System.out.println("Enter New Product ID: ");
+        String productId = p1.nextline();
+        Product p2 = new Product();
+        p2.setProductId(name);
+        System.out.println("Enter New Product Price: ");
+        String price = p1.nextline();
+        System.out.println("Enter New Product Quantity: ");
+        String quantity = p1.nextline();
 
        // if user updates product
 
